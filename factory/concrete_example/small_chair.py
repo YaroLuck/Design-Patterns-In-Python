@@ -1,15 +1,15 @@
 # pylint: disable=too-few-public-methods
-"A Class of Chair"
+"""A Class of Chair"""
 from interface_chair import IChair
 
 
-class MediumChair(IChair):
-    "The Medium Chair Concrete Class implements the IChair interface"
+class SmallChair(IChair):
+    """The Small Chair Concrete Class implements the IChair interface"""
 
     def __init__(self):
-        self._height = 60
-        self._width = 60
-        self._depth = 60
+        self._height = 40
+        self._width = 40
+        self._depth = 40
 
     def get_dimensions(self):
         return {

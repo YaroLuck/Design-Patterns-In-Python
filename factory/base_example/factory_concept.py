@@ -1,15 +1,15 @@
 # pylint: disable=too-few-public-methods
-"The Factory Concept"
+"""The Factory Concept"""
 from abc import ABCMeta, abstractmethod
 
 
 class IProduct(metaclass=ABCMeta):
-    "A Hypothetical Class Interface (Product)"
+    """A Hypothetical Class Interface (Product)"""
 
     @staticmethod
     @abstractmethod
     def create_object():
-        "An abstract interface method"
+        """An abstract interface method"""
 
 
 class ConcreteProductA(IProduct):

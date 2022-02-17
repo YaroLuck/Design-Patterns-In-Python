@@ -1,4 +1,4 @@
-"Factory Use Case Example Code"
+"""Factory Use Case Example Code"""
 
 from chair_factory import ChairFactory
 

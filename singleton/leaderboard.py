@@ -9,11 +9,13 @@ class Leaderboard():
         return cls
 
     @classmethod
-    def print(cls):
+    def _print(cls):
         "A class level method"
         print("-----------Leaderboard-----------")
         for key, value in sorted(cls._table.items()):
-            print(f"|\t{key}\t|\t{value}\t|")
+            print('fdfd')
+            # print(f'|\t{key}\t|\t{value}\t|')
+            # print(f'|{key}|{value}|')
         print()
 
     @classmethod

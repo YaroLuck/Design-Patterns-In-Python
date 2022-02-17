@@ -102,7 +102,7 @@ PS> python
 
 Lists are used in almost every code example in this book. You will see all the many ways they can be used. 
 
-In fact, a list was used in the [/abstract_factory/furniture_factory.py](/abstract_factory/furniture_factory.py) example, 
+In fact, a list was used in the [/abstract_factory/furniture_factory.py](/abstract_factory/concrete_example/furniture_factory.py) example, 
 
 ``` python
 if furniture in ['SmallChair', 'MediumChair', 'BigChair']:
